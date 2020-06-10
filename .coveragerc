@@ -1,0 +1,3 @@
+[run]
+omit =
+    fbmp2/tests/*

@@ -1,0 +1,16 @@
+*.aux
+*.synctex.gz
+*.log
+*.out
+*.toc
+.idea/*
+*/__pycache__/*
+*/tests/__pycache__/*
+example/*
+.coverage
+.pytest_cache/*
+docs/_build/*
+docs/api/*
+*.lprof
+VERSION
+*.egg-info/*

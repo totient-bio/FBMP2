@@ -1,0 +1,15 @@
+#! /bin/bash
+
+python3 command-line-tool/fbmp2-feature-selection.py \
+        --xy_data  example/test_data/UCEC.tsv.gz  \
+        --column_types  example/test_data/UCEC_coltypes.tsv  \
+        --alpha_grid 0.01,0.1 \
+        --a 0.0 \
+        --b 0.0 \
+        --normalize_x_scales False \
+        --lambda_pseudocount 50 \
+        --lambda_mean 0.1 \
+        --bandwidth 2 \
+        --adaptive True \
+        --algorithm N1-space \
+        --out_prefix example/test_data/UCEC
